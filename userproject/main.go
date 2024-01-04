@@ -6,7 +6,7 @@ import (
 )
 
 func StartServer() {
-	rest.RunAPI("127.0.0.1:3000")
+	rest.RunAPI("0.0.0.0:3000")
 }
 
 func main() {
